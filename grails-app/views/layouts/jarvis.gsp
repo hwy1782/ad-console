@@ -15,43 +15,43 @@
 
     <!--// OPTIONAL & CONDITIONAL CSS FILES //-->
     <!-- date picker css -->
-    <link rel="stylesheet" href="css/datepicker.css?v=1" />
+    <link rel="stylesheet" href="${request.contextPath}/jarvis/css/datepicker.css?v=1" />
     <!-- full calander css -->
-    <link rel="stylesheet" href="css/fullcalendar.css?v=1" />
+    <link rel="stylesheet" href="${request.contextPath}/jarvis/css/fullcalendar.css?v=1" />
     <!-- data tables extended CSS -->
-    <link rel="stylesheet" href="css/TableTools.css?v=1" />
+    <link rel="stylesheet" href="${request.contextPath}/jarvis/css/TableTools.css?v=1" />
     <!-- bootstrap wysimhtml5 editor -->
-    <link rel="stylesheet" href="css/bootstrap-wysihtml5.css?v=1" />
-    <link rel="stylesheet" href="css/wysiwyg-color.css" />
+    <link rel="stylesheet" href="${request.contextPath}/jarvis/css/bootstrap-wysihtml5.css?v=1" />
+    <link rel="stylesheet" href="${request.contextPath}/jarvis/css/wysiwyg-color.css" />
     <!-- custom/responsive growl messages -->
-    <link rel="stylesheet" href="css/toastr.custom.css?v=1" />
-    <link rel="stylesheet" href="css/toastr-responsive.css?v=1" />
-    <link rel="stylesheet" href="css/jquery.jgrowl.css?v=1" />
+    <link rel="stylesheet" href="${request.contextPath}/jarvis/css/toastr.custom.css?v=1" />
+    <link rel="stylesheet" href="${request.contextPath}/jarvis/css/toastr-responsive.css?v=1" />
+    <link rel="stylesheet" href="${request.contextPath}/jarvis/css/jquery.jgrowl.css?v=1" />
 
     <!-- // DO NOT REMOVE OR CHANGE ORDER OF THE FOLLOWING // -->
     <!-- bootstrap default css (DO NOT REMOVE) -->
-    <link rel="stylesheet" href="css/bootstrap.min.css?v=1" />
-    <link rel="stylesheet" href="css/bootstrap-responsive.min.css?v=1" />
+    <link rel="stylesheet" href="${request.contextPath}/jarvis/css/bootstrap.min.css?v=1" />
+    <link rel="stylesheet" href="${request.contextPath}/jarvis/css/bootstrap-responsive.min.css?v=1" />
     <!-- font awsome and custom icons -->
-    <link rel="stylesheet" href="css/font-awesome.min.css?v=1" />
-    <link rel="stylesheet" href="css/cus-icons.css?v=1" />
+    <link rel="stylesheet" href="${request.contextPath}/jarvis/css/font-awesome.min.css?v=1" />
+    <link rel="stylesheet" href="${request.contextPath}/jarvis/css/cus-icons.css?v=1" />
     <!-- jarvis widget css -->
-    <link rel="stylesheet" href="css/jarvis-widgets.css?v=1" />
+    <link rel="stylesheet" href="${request.contextPath}/jarvis/css/jarvis-widgets.css?v=1" />
     <!-- Data tables, normal tables and responsive tables css -->
-    <link rel="stylesheet" href="css/DT_bootstrap.css?v=1" />
-    <link rel="stylesheet" href="css/responsive-tables.css?v=1" />
+    <link rel="stylesheet" href="${request.contextPath}/jarvis/css/DT_bootstrap.css?v=1" />
+    <link rel="stylesheet" href="${request.contextPath}/jarvis/css/responsive-tables.css?v=1" />
     <!-- used where radio, select and form elements are used -->
-    <link rel="stylesheet" href="css/uniform.default.css?v=1" />
-    <link rel="stylesheet" href="css/select2.css?v=1" />
+    <link rel="stylesheet" href="${request.contextPath}/jarvis/css/uniform.default.css?v=1" />
+    <link rel="stylesheet" href="${request.contextPath}/jarvis/css/select2.css?v=1" />
     <!-- main theme files -->
-    <link rel="stylesheet" href="css/theme.css?v=1" />
-    <link rel="stylesheet" href="css/theme-responsive.css?v=1" />
+    <link rel="stylesheet" href="${request.contextPath}/jarvis/css/theme.css?v=1" />
+    <link rel="stylesheet" href="${request.contextPath}/jarvis/css/theme-responsive.css?v=1" />
 
     <!-- // THEME CSS changed by javascript: the CSS link below will override the rules above // -->
     <!-- For more information, please see the documentation for "THEMES" -->
-    <link rel="stylesheet" id="switch-theme-js" href="css/themes/default.css?v=1" />
+    <link rel="stylesheet" id="switch-theme-js" href="${request.contextPath}/jarvis/css/themes/default.css?v=1" />
     <!-- To switch to full width -->
-    <link rel="stylesheet" id="switch-width" href="css/full-width.css?v=1" />
+    <link rel="stylesheet" id="switch-width" href="${request.contextPath}/jarvis/css/full-width.css?v=1" />
 
     <!-- Webfonts -->
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:300,400,700' type='text/css' />
@@ -64,24 +64,24 @@
    	<![endif]-->
 
     <!-- For Modern Browsers -->
-    <link rel="shortcut icon" href="img/favicons/favicon.png" />
+    <link rel="shortcut icon" href="${request.contextPath}/jarvis/img/favicons/favicon.png" />
     <!-- For everything else -->
-    <link rel="shortcut icon" href="img/favicons/favicon.ico" />
+    <link rel="shortcut icon" href="${request.contextPath}/jarvis/img/favicons/favicon.ico" />
     <!-- For retina screens -->
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicons/apple-touch-icon-retina.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="${request.contextPath}/jarvis/img/favicons/apple-touch-icon-retina.png" />
     <!-- For iPad 1-->
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicons/apple-touch-icon-ipad.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="${request.contextPath}/jarvis/img/favicons/apple-touch-icon-ipad.png" />
     <!-- For iPhone 3G, iPod Touch and Android -->
-    <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon-precomposed" href="${request.contextPath}/jarvis/img/favicons/apple-touch-icon.png" />
 
     <!-- iOS web-app metas -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
     <!-- Startup image for web apps -->
-    <link rel="apple-touch-startup-image" href="img/splash/ipad-landscape.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" />
-    <link rel="apple-touch-startup-image" href="img/splash/ipad-portrait.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" />
-    <link rel="apple-touch-startup-image" href="img/splash/iphone.png" media="screen and (max-device-width: 320px)" />
+    <link rel="apple-touch-startup-image" href="${request.contextPath}/jarvis/img/splash/ipad-landscape.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" />
+    <link rel="apple-touch-startup-image" href="${request.contextPath}/jarvis/img/splash/ipad-portrait.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" />
+    <link rel="apple-touch-startup-image" href="${request.contextPath}/jarvis/img/splash/iphone.png" media="screen and (max-device-width: 320px)" />
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
 
@@ -127,7 +127,7 @@
                             <ul id="mailbox-slimscroll-js" class="mailbox">
                                 <li>
                                     <a href="javascript:void(0)" class="unread">
-                                        <img src="img/email-important.png" alt="important mail" />
+                                        <img src="${request.contextPath}/jarvis/img/email-important.png" alt="important mail" />
                                         From: David Simpson
                                         <i class="icon-paper-clip"></i>
                                         <span>Dear Victoria, Congratulations! Your work has been uploaded to wrapbootstrap.com...</span>
@@ -136,7 +136,7 @@
                                 <li>
                                     <a href="javascript:void(0)" class="unread attachment">
 
-                                        <img src="img/email-unread.png" alt="important mail" />
+                                        <img src="${request.contextPath}/jarvis/img/email-unread.png" alt="important mail" />
                                         Re:Last Year sales
                                         <i class="icon-paper-clip"></i>
                                         <span>Hey Vicky, find attached! Thx :-)</span>
@@ -144,7 +144,7 @@
                                 </li>
                                 <li>
                                     <a href="javascript:void(0)" class="unread">
-                                        <img src="img/email-unread.png" alt="important mail" />
+                                        <img src="${request.contextPath}/jarvis/img/email-unread.png" alt="important mail" />
                                         Company Party
                                         <i class="icon-paper-clip"></i>
                                         <span>Hi, You have been cordially invited to join new year after party.</span>
@@ -152,7 +152,7 @@
                                 </li>
                                 <li>
                                     <a href="javascript:void(0)" class="read">
-                                        <img src="img/email-read.png" alt="important mail" />
+                                        <img src="${request.contextPath}/jarvis/img/email-read.png" alt="important mail" />
                                         RE: 2 Bugs found...
                                         <i class="icon-paper-clip"></i>
                                         <span>I have found two more bugs in this your beta version, maybe its not working...</span>
@@ -160,7 +160,7 @@
                                 </li>
                                 <li>
                                     <a href="javascript:void(0)" class="read">
-                                        <img src="img/email-read.png" alt="important mail" />
+                                        <img src="${request.contextPath}/jarvis/img/email-read.png" alt="important mail" />
                                         2 Bugs found...
                                         <i class="icon-paper-clip"></i>
                                         <span>Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales.</span>
@@ -168,7 +168,7 @@
                                 </li>
                                 <li>
                                     <a href="javascript:void(0)" class="read">
-                                        <img src="img/email-read.png" alt="important mail" />
+                                        <img src="${request.contextPath}/jarvis/img/email-read.png" alt="important mail" />
                                         Welcome to Jarvis!
                                         <i class="icon-paper-clip"></i>
                                         <span>Feugiat a, tellus. Phasellus viverra nulla ut metus varius. Quisque rutrum. Aenean imperdiet... </span>
@@ -267,7 +267,7 @@
     <!-- aside item: Mini profile -->
     <div class="my-profile">
         <a href="javascript:void(0)" class="my-profile-pic">
-            <img src="img/avatar/avatar_0.jpg" alt="" />
+            <img src="${request.contextPath}/jarvis/img/avatar/avatar_0.jpg" alt="" />
         </a>
         <span class="first-child">Welcome <strong>Victoria!</strong></span>
         <span><a href="javascript:void(0);">Edit Profile </a></span>
@@ -364,7 +364,7 @@
             </button>
 
             <a href="javascript:void(0)">
-                <img src="img/email-important.png" width="22" height="18" alt="important mail" />
+                <img src="${request.contextPath}/jarvis/img/email-important.png" width="22" height="18" alt="important mail" />
                 From:David S...
             </a>
             Dear Victoria, Congratulations! You work has been uploade...
@@ -375,7 +375,7 @@
                 ×
             </button>
             <a href="javascript:void(0)">
-                <img src="img/email-unread.png" width="22" height="18" alt="important mail" />
+                <img src="${request.contextPath}/jarvis/img/email-unread.png" width="22" height="18" alt="important mail" />
                 Re:Last Year...
             </a>
             Hey Vicky, find attached! Thx :-)
@@ -386,7 +386,7 @@
                 ×
             </button>
             <a href="javascript:void(0)">
-                <img src="img/email-unread.png" width="22" height="18" alt="important mail" />
+                <img src="${request.contextPath}/jarvis/img/email-unread.png" width="22" height="18" alt="important mail" />
                 Company Party
             </a>
             Hi, You have been cordially invited to join new year...
