@@ -23,38 +23,36 @@
 			<table>
 			<thead>
 					<tr>
-					
-						%{--<g:sortableColumn property="accountstate" title="${message(code: 'user.accountstate.label', default: 'Accountstate')}" />--}%
-						<g:sortableColumn property="accountstate" title="${message(code: 'user.accountstate.label', default: 'Accountstate')}" />
+                        <g:sortableColumn property="id" title="${message(code: 'user.id.label', default: 'ID')}" />
 
-						<g:sortableColumn property="createtime" title="${message(code: 'user.createtime.label', default: 'Createtime')}" />
-					
-						<g:sortableColumn property="deleted" title="${message(code: 'user.deleted.label', default: 'Deleted')}" />
-					
-						<g:sortableColumn property="name" title="${message(code: 'user.name.label', default: 'Name')}" />
-					
-						<g:sortableColumn property="signstate" title="${message(code: 'user.signstate.label', default: 'Signstate')}" />
-					
-						<g:sortableColumn property="state" title="${message(code: 'user.state.label', default: 'State')}" />
-					
+                        <g:sortableColumn property="name" title="${message(code: 'user.name.label', default: 'Name')}" />
+
+                        <g:sortableColumn property="state" title="${message(code: 'user.state.label', default: 'State')}" />
+
+                        <g:sortableColumn property="accountstate" title="${message(code: 'user.accountstate.label', default: 'Accountstate')}" />
+
+                        <g:sortableColumn property="createtime" title="${message(code: 'user.createtime.label', default: 'Createtime')}" />
+
+                        <g:sortableColumn property="deleted" title="${message(code: 'user.deleted.label', default: 'Deleted')}" />
+
 					</tr>
 				</thead>
 				<tbody>
 				<g:each in="${userInstanceList}" status="i" var="userInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
-					
-						<td><g:link action="show" id="${userInstance.id}">${fieldValue(bean: userInstance, field: "accountstate")}</g:link></td>
-					
-						<td><g:formatDate date="${userInstance.createtime}" /></td>
-					
-						<td>${fieldValue(bean: userInstance, field: "deleted")}</td>
-					
-						<td>${fieldValue(bean: userInstance, field: "name")}</td>
-					
-						<td>${fieldValue(bean: userInstance, field: "signstate")}</td>
-					
-						<td>${fieldValue(bean: userInstance, field: "state")}</td>
-					
+
+                        <td><g:link action="show" id="${userInstance.id}">${fieldValue(bean: userInstance, field: "userid")}</g:link></td>
+
+                        <td>${fieldValue(bean: userInstance, field: "name")}</td>
+
+                        <td>${fieldValue(bean: userInstance, field: "state")}</td>
+
+                        <td>${fieldValue(bean: userInstance, field: "accountstate")}</td>
+
+                        <td><g:formatDate date="${userInstance.createtime}" /></td>
+
+                        <td>${fieldValue(bean: userInstance, field: "deleted")}</td>
+
 					</tr>
 				</g:each>
 				</tbody>

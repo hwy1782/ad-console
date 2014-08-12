@@ -59,14 +59,14 @@
 				</li>
 				</g:if>
 			
-				<g:if test="${userInstance?.signstate}">
+				%{--<g:if test="${userInstance?.signstate}">
 				<li class="fieldcontain">
 					<span id="signstate-label" class="property-label"><g:message code="user.signstate.label" default="Signstate" /></span>
 					
 						<span class="property-value" aria-labelledby="signstate-label"><g:fieldValue bean="${userInstance}" field="signstate"/></span>
 					
 				</li>
-				</g:if>
+				</g:if>--}%
 			
 				<g:if test="${userInstance?.state}">
 				<li class="fieldcontain">
@@ -86,11 +86,11 @@
 				</li>
 				</g:if>
 			
-				<g:if test="${userInstance?.userId}">
+				<g:if test="${userInstance?.userid}">
 				<li class="fieldcontain">
-					<span id="userId-label" class="property-label"><g:message code="user.userId.label" default="User Id" /></span>
+					<span id="userId-label" class="property-label"><g:message code="user.userid.label" default="User Id" /></span>
 					
-						<span class="property-value" aria-labelledby="userId-label"><g:fieldValue bean="${userInstance}" field="userId"/></span>
+						<span class="property-value" aria-labelledby="userId-label"><g:fieldValue bean="${userInstance}" field="userid"/></span>
 					
 				</li>
 				</g:if>

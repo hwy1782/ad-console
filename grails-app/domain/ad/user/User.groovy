@@ -1,7 +1,7 @@
 package ad.user
 
 class User {
-    long userId
+    long userid
     String name
     String state
     String accountstate
